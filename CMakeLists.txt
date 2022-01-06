@@ -16,7 +16,7 @@ else ()
 endif()
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
-add_executable(histo main.cpp)
+add_executable(histo main.cpp ./src/redline_search.cpp)
 
 target_link_libraries (
         ${CMAKE_PROJECT_NAME}
